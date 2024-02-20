@@ -31,6 +31,11 @@ Now close that terminal and we are all Done.
 You can use the command ``cpp_init`` wherever you want to generate classes
 The first argument is the folder where you want to create the classes (if the folder doesn't exist the program will create it)
 From the second argument on you will write the name of the classes you want to create
+It Generates:
+- The main folder
+- The includes folder with all the .hpp files already coded in orthodox canonical form
+- The sources folder with all the .cpp files already coded in orthodox canonical form and a main.cpp with the includes already in place
+- The Makefile with the SRCS already in place and compiling the objects
 ```bash
 cpp_init #Exercise_Folder #nameOfClass1 #nameOfClass2 #nameOfClass3 [...]
 ```
